@@ -326,18 +326,18 @@ class App {
   }
   createMedias(items, bend = 1, textColor, borderRadius, font) {
     const defaultItems = [
-      { image: `https://picsum.photos/seed/1/800/600?grayscale`, text: 'Bridge' },
-      { image: `https://picsum.photos/seed/2/800/600?grayscale`, text: 'Desk Setup' },
-      { image: `https://picsum.photos/seed/3/800/600?grayscale`, text: 'Waterfall' },
-      { image: `https://picsum.photos/seed/4/800/600?grayscale`, text: 'Strawberries' },
-      { image: `https://picsum.photos/seed/5/800/600?grayscale`, text: 'Deep Diving' },
-      { image: `https://picsum.photos/seed/16/800/600?grayscale`, text: 'Train Track' },
-      { image: `https://picsum.photos/seed/17/800/600?grayscale`, text: 'Santorini' },
-      { image: `https://picsum.photos/seed/8/800/600?grayscale`, text: 'Blurry Lights' },
-      { image: `https://picsum.photos/seed/9/800/600?grayscale`, text: 'New York' },
-      { image: `https://picsum.photos/seed/10/800/600?grayscale`, text: 'Good Boy' },
-      { image: `https://picsum.photos/seed/21/800/600?grayscale`, text: 'Coastline' },
-      { image: `https://picsum.photos/seed/12/800/600?grayscale`, text: "Palm Trees" }
+      { image: `https://mir-s3-cdn-cf.behance.net/project_modules/1400/1c3bca107470255.5fa81c9882b43.jpg`,text:''},
+      { image: `https://images.stockcake.com/public/3/d/3/3d3acf42-df75-48dd-a629-28ffad456183_large/nighttime-festival-scene-stockcake.jpg`,text:'' },
+      { image: `https://static-wordpress.akamaized.net/india.ubisoft.com/assets/aaeNckzek2H2ABf6kaXIxZ4Mz.jpg`,text:'' },
+      { image: `https://nitc.ac.in/imgserver/uploads/attachments/pcm__479bcf69-a74a-447f-9844-b96df5765be1_0.png`,text:''},
+      { image: `https://static.theprint.in/wp-content/uploads/2022/03/WhatsApp_Image_2021-12-22_at_22.00.0720220317160847.jpg`,text:'' },
+      { image: `https://live.staticflickr.com/7823/33329605258_6110c225e1_b.jpg`,text:'' },
+      { image: `https://pbs.twimg.com/media/GNtyWWAXgAAKa5j?format=jpg&name=large`,text:'' },
+      { image: `https://th.bing.com/th/id/OIP.kn74EKPA_CHnApOG586UXwHaEK?rs=1&pid=ImgDetMain`,text:'' },
+      { image: `https://th.bing.com/th/id/OIP.s3En6w8t8liCujrXju1QdgHaHa?w=1000&h=1000&rs=1&pid=ImgDetMain`,text:''},
+      { image: `https://th.bing.com/th/id/OIP.XxKLHOqDMTXuGpbFTv4UEAHaEK?rs=1&pid=ImgDetMain`,text:'' },
+      { image: `https://th.bing.com/th/id/OIP.lTkav6X76FXNBlsQm_axZgHaE8?rs=1&pid=ImgDetMain`,text:''},
+      { image: `https://th.bing.com/th/id/OIP.Z1995nrtPFFzL8DpUFDZcAHaJ4?w=900&h=1200&rs=1&pid=ImgDetMain` ,text:''}
     ]
     const galleryItems = items && items.length ? items : defaultItems
     this.mediasImages = galleryItems.concat(galleryItems)

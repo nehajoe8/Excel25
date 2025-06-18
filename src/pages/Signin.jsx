@@ -9,14 +9,14 @@ const Signin = () => {
     e.preventDefault()
     console.log('Email:', email)
     console.log('Password:', password)
-    // TODO: Connect to backend
+    
   }
 
   return (
     <div className="min-h-screen bg-[#0d0b13] flex items-center justify-center px-4">
       <div className="w-full max-w-md p-8 rounded-3xl shadow-xl backdrop-blur-md bg-white/5 border border-white/10 text-white">
         <h2 className="text-3xl font-bold text-center mb-6 tracking-wide font-[Orbitron] text-[#f0ebff]">
-          Sign In to Excel
+          Sign In to Shastra
         </h2>
         <form onSubmit={handleSubmit} className="space-y-5">
           <div>

@@ -8,7 +8,7 @@ const About = () => {
           ABOUT
         </h2>
         <p className="text-lg md:text-xl text-[#e6e0ff] leading-relaxed">
-          Excel, the premier techno-managerial festival of India, hosted by the students of Govt. Model Engineering College, Kochi is a beacon of innovation and a celebration of young minds. Since its inception in 2001, Excel has always pushed the limits of creativity as a dynamic platform for students to explore, innovate, and excel. Excel returns for a momentous 25th edition this Excel 2024 and promises to be an unforgettable journey. Join us for a constellation of events that includes workshops, competitions, talks, and all kinds of fun.
+          Shastra is the annual techfest of Govt. Engineering College, Delhi — a celebration of innovation, imagination, and ingenuity. Rooted in the spirit of exploration, Shastra brings together the brightest minds from across the country to decode the future through code, circuitry, and creativity. From cutting-edge tech competitions and immersive workshops to thought-provoking talks and show-stopping exhibitions, every element of Shastra is designed to inspire and ignite. More than just a fest, it’s a portal into the world of possibilities — where technology meets vision, and ideas come alive.
         </p>
       </div>
     </div>
